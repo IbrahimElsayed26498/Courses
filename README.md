@@ -4,3 +4,4 @@
 <img src="./imgs/README/home-page.png"/>
 <img src="./imgs/README/courses-detatils.png"/>
 <img src="./imgs/README/contact.png"/>
+<img src="./imgs/README/courses-overview.png"/>
