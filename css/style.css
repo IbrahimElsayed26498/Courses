@@ -186,3 +186,77 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/****************************************************************************/
+/************************** singl product page ***********************/
+
+/************* product section**************/
+
+
+.product .prodact-imgs .imgs li{
+  margin: 0 10px;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+
+}
+.product .prodact-imgs .imgs li:hover{
+  border-color: var(--pop-color);
+}
+
+
+.related-products .related figure{border-radius: 0;}
+
+.related-products .owl-theme .owl-nav{
+  top: -20%;
+  right: 0;
+  font-size: 30px;
+}
+
+
+
+.product .product-details .prod-name h5 {
+  color: #495057;
+  font-family: jose;
+}
+.product .product-details .prod-rate{color: #ffc107;}
+.product .product-details .prod-price p {
+  font-size: 30px;
+  font-family: jose;
+  color: var(--pop-color);
+  font-weight: bold;
+}
+.product .product-details h6 {
+  color: var(--pop-color);
+  font-family: jose;
+}
+.product .product-details .prod-description p{
+  color: #777;
+  font-weight: 100;
+}
+.product .product-details .prod-information div {
+  font-size: 13px;
+  color: #777;
+  padding: 5px 0;
+}
+.product .product-details .prod-information span {
+  color: var(--pop-color);
+  font-family: jose;
+  font-size: 15px;
+}
+.product .prod-action .buy{
+  padding: 5px 40px;
+  background-color: var(--pop-color);
+  color: #fff;
+}
+.product .prod-action a{
+  padding: 5px 20px;
+  background-color: var(--pop-color);
+  color: #fff;
+  border: 1px solid var(--pop-color);
+  transition: .5s;
+}
+.product .prod-action a:hover {
+  background-color: #fff;
+  color: var(--pop-color);
+}
