@@ -4,18 +4,154 @@
         <meta charset="utf-8">
         <meta name="description" content="Browse some courses">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Courses</title>
+        <title>About Us</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     </head>
-    <bod>
+    <body id="about-us-body">
         <header>
-            <div class="topnav">
-                <a href="./index.html">Home</a>
-                <a href="./courses-overview.html">Courses</a>
-                <a href="./courses-details.html">Courses Details</a>
-                <a href="./contact.html">Contact</a>
-                <a class="active" href="./about.html">About</a>
-              </div>
+            <div class="row topnav">
+                <a class="col-md-2" href="./index.html">Home</a>
+                <a class="col-md-2" href="./courses-overview.html">Courses</a>
+                <a class="col-md-2" href="./courses-details.html">Courses Details</a>
+                <a class="col-md-2" href="./contact.html">Contact</a>
+                <a class="active col-md-2" href="./about.html">About</a>
+                <div class="input-group rounded" style="padding-top: 10px;">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                      aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                </div>
+          </div>
         </header>
+        <section class="why-we-are">
+            <!--section has one raw divided into two column:first column for image ,second for paragraph(defination)    -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+    
+                        <img src="./imgs/about-us.jpg" class="img-thumbnail" alt="who-we-are-picture">
+    
+                    </div>
+    
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 who-we-are">
+                        <div class="control-content">
+    
+                            <h1> WHO WE ARE</h1>
+                            <p>
+    
+                                Mellentesque faucibus dapibus dapibus. Morbi aliquam aliquet neque.
+                                Donec placerat dapibus sollicitudin. Morbi arcu nisi, mattis ut ullamcorper
+                                in, dapibus ac nunc. Cras bibendum mauris et sapien feugiat.
+                                scelerisque accumsan nibh gravida. Quisque aliquet justo elementum
+                                lectus ultrices bibendum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                anim id est laborum
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur eu fugiat nulla pariatur.
+    
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section> 
+        <!-- END OF section  -->
+         <!--services-->
+    <div class="services pt-5">
+        <div class="container-fluid">
+            <h4 class="pb-3">Our Services</h4>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="serv px-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="icon-serv">
+                                    <i class="fas fa-shipping-fast"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="content-serv">
+                                    <h6>Mellentesque faucibus</h6>
+                                    <p>Mellentesque faucibus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="serv px-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="icon-serv">
+                                    <i class="fas fa-undo"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="content-serv">
+                                    <h6>FREE RETURN</h6>
+                                    <p>Within 30 days returns</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="serv px-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="icon-serv">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="content-serv">
+                                    <h6>SUCURE PAYMENT</h6>
+                                    <p>100% secure payment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="serv px-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="icon-serv">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="content-serv">
+                                    <h6>BEST PREICE</h6>
+                                    <p>Guaranteed price</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
         <footer>
             All Copyrights &copy; reserved to 
             <a href="https://github.com/IbrahimElsayed26498"

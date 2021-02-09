@@ -4,17 +4,32 @@
         <meta charset="utf-8">
         <meta name="description" content="Browse some courses">
         <link rel="stylesheet" href="./css/style.css">
-        <title>Courses</title>
+        <title>Courses Overview</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     </head>
     <bod>
         <header>
-            <div class="topnav">
-                <a href="./index.html">Home</a>
-                <a class="active" href="./courses-overview.html">Courses</a>
-                <a href="./courses-details.html">Courses Details</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./about.html">About</a>
-              </div>
+            <div class="row topnav">
+                <a class="col-md-2" href="./index.html">Home</a>
+                <a class="active col-md-2" href="./courses-overview.html">Courses</a>
+                <a class="col-md-2" href="./courses-details.html">Courses Details</a>
+                <a class="col-md-2" href="./contact.html">Contact</a>
+                <a class="col-md-2" href="./about.html">About</a>
+                <div class="input-group rounded" style="padding-top: 10px;">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                      aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                      <i class="fas fa-search"></i>
+                    </span>
+                </div>
+          </div>
         </header>
         <footer>
             All Copyrights &copy; reserved to 
