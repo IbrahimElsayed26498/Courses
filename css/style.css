@@ -260,3 +260,79 @@
   background-color: #fff;
   color: var(--pop-color);
 }
+
+/************* product section**************/
+.info figure{
+
+  box-shadow: 5px 5px 10px #c0c0c0a6;
+  margin: 0px 15px;
+  max-height: 120px;
+}
+.info .icon{
+  font-size: 40px;
+  color: var(--pop-color);
+  text-align: center;
+}
+.info .figcaption{
+  padding: 10px 20px;
+}
+.info .span{
+  font-size: 30px;
+}
+
+.info div ul li{display: none}
+.info div ul li a{
+  font-size: 30px;
+}
+.list li{
+  border: none;
+}
+.info .figcaption h5{
+  font-family: jose;
+  font-size: 25px;
+  color: var(--pop-color);
+  margin: 0;
+}
+.info .figcaption p{
+  color: slategrey;
+  font-weight: 100;
+}
+section.form{
+  padding: 50px 0px;
+  
+}
+.form .heading  p{
+  font-family: jose;
+}
+.form .heading  h2{
+  font-family: jose;
+  color:var(--pop-color) ;
+}
+.form .heading h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-form .form-group input{
+  padding: 20px 10px;
+  font-weight: 100;
+}
+.form .text-area{
+  width: 100%;
+  padding: 10px 10px;
+  height: 190px;
+}    
+.main-form input[type="submit"]{
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: var(--pop-color);
+  border-color: var(--pop-color);
+}
+.main-form input[type="submit"]:hover{
+  color: var(--pop-color);
+  background-color: #fff;
+  font-weight: bold;
+}
+.map iframe{
+  height: 600px;
+  width: 100%;
+  border: 0px;
+}

@@ -14,7 +14,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     </head>
-    <body>
+    <body style="background-image: url();">
         <header>
             <div class="row topnav">
                 <a class="col-md-2" href="./index.html">Home</a>
@@ -30,6 +30,55 @@
                 </div>
           </div>
         </header>
+
+                    <!--contact form-->
+            <section class="form text-capitalize">
+                <div class="container">
+                    <div class="heading">
+                        <p>
+                            leave a messsage
+                        </p>
+                        <h2>
+                            We love to hear from you
+                        </h2>
+                    </div>
+                        <div class="main-form">
+                            <div class="container">
+                                <div class="row">
+                                    <form>
+                                        <!--name form with validation-->
+                                        <div class="form-group col-sm-12 col-lg-6">
+                                            <label>your name:</label>
+                                            <div style="width: 1000px">
+                                                <input for="name" class="form-control" type="text" placeholder="your name" required>
+                                            </div>
+                                        </div>
+
+                                        <!--email form with validation-->
+                                        <div class="form-group col-sm-12 col-lg-6">
+                                            <label>your email:</label>
+                                            <div style="width:1000px">
+                                                <input for="email" type="email" class="form-control" placeholder="your email" required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-12">
+                                            <label>messsage:</label>
+                                            <textarea for="message" class="text-area" placeholder="your message" required></textarea>
+                                            <!--validation to message input-->
+                                        </div>
+
+                                        <div>
+                                            <button type="submit" class="btn btn-primary">Send</button>
+                                        </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                </div>
+            </section>
+
         <footer>
             All Copyrights &copy; reserved to 
             <a href="https://github.com/IbrahimElsayed26498"
